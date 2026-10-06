@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sabareesh J. | ECE Student Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#0b1020;color:#eef2ff;line-height:1.6}
+nav{position:sticky;top:0;background:rgba(11,16,32,.92);backdrop-filter:blur(10px);padding:16px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #27304a;z-index:10}
+.logo{font-size:22px;font-weight:800;color:#7dd3fc}
+nav a{color:#cbd5e1;text-decoration:none;margin-left:20px;font-size:14px}
+nav a:hover{color:#7dd3fc}
+.hero{min-height:82vh;display:flex;align-items:center;padding:70px 7%;background:radial-gradient(circle at 80% 30%,#183b61 0,transparent 35%)}
+.hero div{max-width:800px}
+.badge{display:inline-block;padding:7px 13px;border:1px solid #315b7e;border-radius:999px;color:#7dd3fc;margin-bottom:18px;font-size:13px}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.05;margin-bottom:18px}
+h1 span{color:#7dd3fc}
+.hero p{font-size:19px;color:#b8c4d8;max-width:650px}
+.btns{margin-top:28px}
+.btn{display:inline-block;text-decoration:none;padding:12px 20px;border-radius:10px;margin-right:10px;background:#38bdf8;color:#06111d;font-weight:700}
+.btn.secondary{background:transparent;color:#e2e8f0;border:1px solid #40506d}
+section{padding:70px 7%;max-width:1150px;margin:auto}
+h2{font-size:34px;margin-bottom:25px}
+.sub{color:#9eabc0;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:#121a2e;border:1px solid #273452;border-radius:16px;padding:22px}
+.card h3{color:#dff6ff;margin-bottom:9px}
+.card p{color:#aebbd0}
+.skills span{display:inline-block;padding:9px 13px;background:#17243a;border:1px solid #2b4161;border-radius:9px;margin:5px;color:#cdeeff}
+.project{transition:.2s}
+.project:hover{transform:translateY(-4px);border-color:#4c8db8}
+footer{text-align:center;padding:35px 7%;border-top:1px solid #27304a;color:#8d9ab0}
+@media(max-width:700px){nav div:last-child{display:none}.hero{min-height:75vh;padding-top:50px}.hero p{font-size:17px}}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">SJ.</div>
+<div>
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+</div>
+</nav>
+
+<header class="hero">
+<div>
+<div class="badge">FIRST-YEAR ECE STUDENT</div>
+<h1>Hi, I'm <span>Sabareesh J.</span></h1>
+<p>I’m an Electronics and Communication Engineering student interested in embedded systems, electronics, programming and building practical technology projects that solve real-world problems.</p>
+<div class="btns">
+<a class="btn" href="#projects">View Projects</a>
+<a class="btn secondary" href="#contact">Contact Me</a>
+</div>
+</div>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p class="sub">Electronics • Embedded Systems • Programming</p>
+<div class="card">
+<p>I am a first-year ECE student developing my foundation in electronics, C programming, Arduino and ESP32. I enjoy learning by building prototypes and exploring how hardware and software can work together to solve everyday problems.</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<span>C Programming</span><span>Arduino</span><span>ESP32</span><span>Basic Electronics</span><span>IoT Concepts</span><span>Problem Solving</span><span>Embedded Systems — Learning</span>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<p class="sub">Selected projects and ideas I'm developing.</p>
+<div class="grid">
+<div class="card project"><h3>⚡ Energy Usage Monitor</h3><p>An ESP32-based concept to monitor electricity consumption, calculate units and present usage information digitally.</p></div>
+<div class="card project"><h3>📢 Smart Noise Indicator</h3><p>A classroom-focused prototype concept that detects excessive noise and can provide an alert when the level crosses a set threshold.</p></div>
+<div class="card project"><h3>📷 Phone-Camera CCTV Prototype</h3><p>An ESP32-based learning project exploring motion detection, phone-camera capture and alert notifications.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Current Learning</h2>
+<div class="grid">
+<div class="card"><h3>Embedded Systems</h3><p>Learning microcontrollers, sensors, GPIO, communication and practical prototyping.</p></div>
+<div class="card"><h3>C Programming</h3><p>Building fundamentals with variables, conditions, loops, functions and problem-solving.</p></div>
+<div class="card"><h3>ECE Fundamentals</h3><p>Strengthening knowledge in electronics, digital logic, circuits and communication concepts.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Let's Connect</h2>
+<p class="sub">Interested in electronics, projects and learning together.</p>
+<div class="card">
+<p><strong>Name:</strong> Sabareesh J.</p>
+<p><strong>Role:</strong> First-Year ECE Student</p>
+<p><strong>Location:</strong> Tamil Nadu, India</p>
+<p style="margin-top:15px;color:#8fa1bb">Add your email, LinkedIn and GitHub here when you're ready.</p>
+</div>
+</section>
+
+<footer>© 2026 Sabareesh J. • ECE Student Portfolio</footer>
+</body>
+</html>
